@@ -1,0 +1,61 @@
+.note-editor {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .note-editor h2 {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  .note-editor .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .note-editor .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+  
+  .note-editor .form-group input, 
+  .note-editor .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .note-editor .form-group input:focus, 
+  .note-editor .form-group textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+  }
+  
+  .note-editor .save-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #2980b9 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .note-editor .save-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }

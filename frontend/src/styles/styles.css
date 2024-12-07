@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .notes-list .note-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tags .tag {
+    background-color: #e0e0e0;
+    padding: 3px 7px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  

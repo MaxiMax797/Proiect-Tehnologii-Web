@@ -1,0 +1,71 @@
+.notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .note-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .note-author {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .note-date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 12px; /* Spațiu între dată și descriere */
+  }
+  
+  .note-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .note-tags {
+    margin-top: 8px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background: #e0e0e0;
+    color: #333;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-right: 4px;
+  }
+  
+  .note-actions {
+    margin-top: 12px;
+  }
+  
+  .note-actions button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .note-actions button:hover {
+    background: #0056b3;
+  }
+  
