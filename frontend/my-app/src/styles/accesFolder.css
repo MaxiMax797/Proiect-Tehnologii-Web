@@ -1,0 +1,107 @@
+.parent-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerAcces {
+    background-color: #ADD8E6; /* Albastru deschis */
+    width: 80%;
+    height: 450px;
+    border-radius: 20px;
+    border: 2px solid #000000; /* Contur negru */
+    margin-top: 0;
+}
+
+.topside {
+    display: flex;
+    align-items: center;
+    background-color: #ADD8E6; /* Albastru deschis */
+    border-radius: 20px;
+    border: 2px solid #000000; /* Contur negru */
+    height: 70px;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.topside p {
+    margin-left: 20px;
+}
+
+.topside button {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #000000; /* Contur negru */
+    background-color: #ADD8E6; /* Albastru deschis */
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+    margin-left: 40px;
+}
+
+.topside input {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #000000; /* Contur negru */
+    background-color: #ADD8E6; /* Albastru deschis */
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+    margin-left: 40px;
+}
+
+.ListOfEmails button {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #000000; /* Contur negru */
+    background-color: #ADD8E6; /* Albastru deschis */
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+    margin-left: 40px;
+}
+
+.List {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid #000000; /* Contur negru */
+    border-radius: 20px;
+    height: 300px;
+}
+
+.List ul {
+    list-style-type: none;
+    color: #444;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+}
+
+.List li {
+    background-color: #ADD8E6; /* Albastru deschis */
+    margin-top: 5px;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #000000; /* Contur negru */
+    height: 30px;
+}
+
+.ListOfEmails input {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #000000; /* Contur negru */
+    width: 40%;
+    background-color: #ADD8E6; /* Albastru deschis */
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+    margin-left: 100px;
+}
+
+.topside .Link {
+    margin-right: 50px;
+    cursor: pointer;
+}
